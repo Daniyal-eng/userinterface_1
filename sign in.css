@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+h1{
+	font-family:arial;
+	font-size:50px;
+	color:#FFF;
+	letter-spacing:1px;
+	text-shadow: 3px 3px #000;
+	margin-top: 100px;
+}
+
+#signup{
+	float:left;
+	margin-left:550px;
+}
+
+#signup a{
+	color:#FFF;
+	text-decoration:none;
+	font-family:arial;
+}
+
+#signin a.active{
+	color:#FC0;
+}
+
+#signin a{
+	color:#FFF;
+	text-decoration:none;
+	font-family:arial;
+
+}
+
+#signin{
+	float:right;
+	margin-right:568px;
+}
+
+
+#leftcontainer{
+	width:400px;
+	height:100%;
+	margin: 150px auto;
+}
+p{
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	margin-left:13px;
+	margin-bottom: 4px;
+	}
+	
+input{
+	background:#FFF;
+	opacity:0.7;
+	border:0px solid #000;
+	border-radius:20px;
+	padding: 7px 70px 7px 10px;
+}
+
+form input:active{
+	color:#000;
+	border:0px solid #000;
+	border-radius:20px;
+	padding: 7px 70px 7px 10px;
+}
+
+form{
+	margin-left:75px;
+}
+
+form input[type=button]{
+	margin:30px 0px 0px 0px;
+	width:250px;
+	text-align:center;
+	padding: 7px 70px 7px 70px;
+	background:#F90;
+	color:#FFF;
+	font-weight:bold;
+	opacity:1;
+}
+
+form input[type=button]:hover{
+background:#F60;
+}
+
+center p{
+	margin:280px 0px 0px 0px;
+	font-family:Arial;
+	font-size:14px;
+	color:#FFF;
+}
